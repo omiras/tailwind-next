@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 @layer base {
   html {
     @apply bg-slate-400;
     /** Usando Tailwind classes*/
     border: 2px solid black;
     /** Usando CSS Vanila */
+    font-family: 'Lato', sans-serif;
   }
 }
 
